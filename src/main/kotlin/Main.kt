@@ -3,6 +3,8 @@ import dataSource.utils.CsvParser
 import interactor.CostOfLivingDataSource
 import interactor.GetCityHasCheapestInternetConnectionInteractor
 import interactor.GetHighestSalaryAverageCitiesNamesInteractor
+import model.CityEntity
+
 
 fun main() {
     val csvParser = CsvParser()
@@ -19,4 +21,5 @@ fun main() {
 private fun printSeparationLine(){
     print("\n_______________________________\n")
 }
+
 
